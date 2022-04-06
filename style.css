@@ -1,0 +1,123 @@
+.Home ul { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #121214;
+    height: 720px;
+    width: 770px;
+    padding-right: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: #121214;
+    color: #9C9C9C;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+body {
+    background-color: #121214;
+    
+}
+
+.avatar1 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+   
+.avatar1:hover img {
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+.avatar2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+   
+.avatar2:hover img {
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+.avatar3 img {
+
+    transition: 0.5s all ease-in-out;
+}
+   
+.avatar3:hover img {
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+
+.avatar4 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.avatar4:hover img {
+    border: 2px solid white;
+}
+
+header {
+    display: flex;
+    background-color: #121214;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+}
+
+
+.fotoperfil{
+    border-radius: 10px;
+    max-width: 160px;
+    max-height: 160px;
+    
+}
+
+.botao{
+    background-color: #121214;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: rgb(209, 209, 224);
+
+}
+.btn1{
+    background-color: blue;
+
+}
+.btn2{
+    background-color:transparent;
+	border-radius:8px;
+	border:2px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+
+}
+.btn3{
+    background-color: rgb(203, 209, 202);
+
+}
+.btn4{
+
+}
+
+.btn2:hover{
+	background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all ease-in-out;
+    border-color: black;
+    
